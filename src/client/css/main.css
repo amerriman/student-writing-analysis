@@ -8,5 +8,18 @@ a {
 }
 
 #result-paragraph {
-  color: teal;
+  /*font-family: ;*/
+  font-size: 16px;
+}
+
+.orange{
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
 }
