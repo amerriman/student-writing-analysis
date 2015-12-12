@@ -38,7 +38,7 @@ app.use(express.static(path.join(__dirname, '../client')));
 // *** main routes *** //
 app.use('/', routes);
 app.use('/', function(req, res){
-  res.sendFile(path.join(__dirname, '../server/views', 'index.html'));
+  res.sendFile(path.join(__dirname, '../client/views', 'index.html'));
 });
 
 
